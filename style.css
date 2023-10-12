@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 7px 75px;
+  height: 50px;
+  width: 100%;
+}
+.cart-item a {
+  display: flex;
+  text-decoration: none;
+}
+
+.cart-item #items {
+  /* display: inline-block; */
+  color: black;
+  align-self: center;
+  font-size: 16px;
+  font-weight: 900;
+}
+.kid-world img {
+  height: 30px;
+}
+.cart-item img {
+  height: 30px;
+  align-self: center;
+}
+
+.background img {
+  width: 100vw;
+}
+
+.background {
+  height: 500px;
+  background-image: url(assets/kw-background.png);
+  /* background-repeat: no-repeat; */
+  background-size: 100% 100%;
+}
+#text {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  font-size: 57px;
+  font-family: "Playfair Display", serif;
+  /* border: 2px solid black; */
+  /* padding: 60px 0px 30px 75px; */
+  /* gap: 20px; */
+  padding: 72px;
+  font-weight: 900;
+}
+#text span {
+  font-family: "Playfair Display", serif;
+  /* display: block; */
+  font-weight: 900;
+} ̰
+#new {
+  font-size: 23px;
+  margin-top: 20px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 900;
+}
+.img {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#main {
+  padding: 72px;
+}
+.img img {
+  width: 200px;
+}
+.discover {
+  margin: 52px 0px;
+}
+.discover-text {
+  font-size: 24px;
+  margin: 0px 0px 10px;
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+}
+.pact {
+  font-size: 19px;
+  font-weight: 900;
+  margin: 0px 0px 10px;
+}
+.ryan {
+  color: gray;
+}
+.down {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0px 0px;
+  padding: 0px 0px 50px;
+}
+.price {
+  font-size: 20px;
+  font-weight: 900;
+  align-self: center;
+}
+.below-cart {
+  background-color: #6095ff;
+  display: flex;
+  padding: 6px;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.below-cart img {
+  width: 25px;
+  margin-left: 5px;
+}
+.below-cart p {
+  font-size: 17px;
+  font-weight: 900;
+}
+#img13 {
+  width: 300px;
+}
+.footer {
+  width: 100%;
+  height: 228px;
+  background-image: url(http://i1.faceprep.in/prograd-junior/footer-bg.png);
+  background-size: 100% 100%;
+}
+.brought {
+  color: white;
+}
+.photo {
+  height: 150px;
+  width: 150px;
+  background-color: #6095ff;
+  border-radius: 50%;
+  /* background-image: url(photo.jpg); */
+  /* background-size: 100% 100%; */
+}
+.photo img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.full {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 72px;
+  padding-right: 72px;
+}
+.right {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.right #pranshu {
+  text-align: right;
+  margin-bottom: 10px;
+  font-weight: 900;
+  font-size: 19px;
+}
+#kalvian {
+  text-align: right;
+}
+.brought {
+  margin-bottom: 10px;
+  font-weight: 900;
+  font-size: 24px;
+  font-family: "Playfair Display", serif;
+}
+#mail {
+  text-align: right;
+}
+
+@media  (max-width: 600px) {
+  .background {
+    height: 200px;
+  }
+  #text {
+    font-size: 25px;
+    padding: 25px;
+  }
+  #new {
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  .img{
+    justify-content:center;
+    
+  }
+  .discover-text{
+    text-align: center;
+  }
+  .navbar{
+    padding: 7px 2px;
+  }
+  .full{
+    padding: 0px 16px;
+  }
+  .brought{
+    text-align: center;
+  }
+  .right{
+    flex-wrap: wrap;
+  }
+  #main{
+    padding: 16px;
+  }
+  .pact{
+    text-align: center;
+  }
+  .ryan{
+    text-align: center;
+  }
+
+}
